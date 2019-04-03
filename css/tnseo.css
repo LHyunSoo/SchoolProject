@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+body{
+    font-family: 'Jua', sans-serif;
+    background-image: url("../image/bg_recipe.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;    /*배경의 위치*/
+    background-attachment: fixed;   /*배경의 고정 여부*/
+}
+
+.button_main{
+    background: url("../image/main.png");
+    width: 54px;
+    height: 54px;
+    border-style: solid;
+    border-color:gray;
+    border-radius: 6px;
+    margin-top: 1%;
+    margin-left: 1.5%;
+    position: absolute;
+}
+.button_main:hover{
+    cursor: pointer;
+    background: url("../image/main-1.png");
+}
+.main{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.button_back{
+    background: url("../image/back.png");
+    width: 54px;
+    height: 54px;
+    border-style: solid;
+    border-color:gray;
+    border-radius: 6px;
+    margin-top: 7%;
+    margin-left: 1.5%;
+    position: absolute;
+}
+.button_back:hover{
+    cursor: pointer;
+    background: url("../image/back-1.png");
+}
+.back{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 6%;
+}
+
+p.title{
+    text-align: right;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom:1.5%;
+    font-size:40pt;
+    font-weight: bold;
+    letter-spacing: 15pt;
+}
+
+hr{
+    margin-left: 24%;
+    margin-top: 1%;
+    margin-bottom: 2.5%
+}
+
+table{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 24%;
+    margin-right:10px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+}
+
+iframe{
+    position: absolute;
+    margin-left: 56%;
+}
