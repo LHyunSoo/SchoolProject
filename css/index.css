@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+body{
+    background-image: url("../image/bg_index.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;    /*배경의 위치*/
+    background-attachment: fixed;   /*배경의 고정 여부*/
+}
+
+.img-title{
+    background: url("../image/title1.png");
+    width: 890px;
+    height: 240px;
+}
+.img-title:hover{
+    cursor: pointer;
+    background: url("../image/title-1.png");
+}
+
+.img-button{
+    width: 440px;
+    height: 360px;
+    margin: 130px 130px 0px 130px ;
+    border-style: solid;
+    border-color:gray;
+    border-radius: 6px;
+    border-width: 8px;
+}
+.img-button:hover{
+    cursor: pointer;
+}
+
+.img-button1 {
+    background: url("../image/menu.png");
+}
+.img-button1:hover{
+    background: url("../image/menu-1.png");
+}
+.img-button2 {
+    background: url("../image/cnfcj.png");
+}
+.img-button2:hover{
+    background: url("../image/cnfcj-1.png");
+}
+
+.button_copyright{
+    background: url("../image/copyright.png");
+    width: 95px;
+    height: 95px;
+    border-style: solid;
+    border-color:gray;
+    border-radius: 6px;
+    margin-right: 5%;
+}
+.button_copyright:hover{
+    cursor: pointer;
+    background: url("../image/copyright-1.png");
+}
+
+.dropup {
+    position: relative;
+    display: inline-block;
+    left: 40px;
+}
+.dropup-content {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    display: none;
+    position: absolute;
+    line-height: 30px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 5px;
+    bottom: 100px;
+    z-index: 1; 
+}
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+.dropdown {
+    position: static;
+    display: inline-block;
+}
+.dropdown-content {
+    font-family: 'Jua', sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 1px 5px;
+    margin-top: 15px; 
+    margin-left: 10% ;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+p.explain{
+    text-align: center;
+}
+
+p.copyright{
+    text-align: center;
+}
