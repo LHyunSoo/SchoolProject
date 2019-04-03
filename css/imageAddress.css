@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+body{
+    background-image: url("../image/bg_address1.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;    /*배경의 위치*/
+    background-attachment: fixed;   /*배경의 고정 여부*/
+    font-family: 'Jua', sans-serif;
+}
+
+p.title{
+    font-size:40pt;
+    font-weight: bold;
+    letter-spacing: 15pt;
+    margin-top: 6.5%;
+    margin-bottom:1.5%;
+}
+
+hr{
+    margin-top: 1%;
+    margin-bottom: 2.5%
+}
+
+p.cont{
+    border-style: none;
+    text-align: center;
+    line-height: 180%;
+    font-size:25pt;
+}
+
+.button_main{
+    background: url("../image/main.png");
+    width: 54px;
+    height: 54px;
+    border-style: solid;
+    border-color:gray;
+    border-radius: 6px;
+    margin-left: 4%;
+}
+.button_main:hover{
+    cursor: pointer;
+    background: url("../image/main-1.png");
+}
