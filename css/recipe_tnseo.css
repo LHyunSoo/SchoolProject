@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+body{
+    font-family: 'Jua', sans-serif;
+}
+
+.recipe_title{
+    font-weight: bold;
+    font-size: 19pt;
+}
+.recipe_cont{
+    font-size: 15pt;
+    margin-bottom: 2%;
+    line-height: 35px;
+}
+
+ol{
+    margin-top: 0%;
+    margin-left: 3%;
+    padding:0%;
+}
+
+i{
+    font-size:10pt; 
+    color:red;
+}
